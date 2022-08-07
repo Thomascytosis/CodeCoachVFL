@@ -294,7 +294,7 @@ var ssc_uniqueID = function() {
   }
 }();
 
-var ischrome = /chrome/.test(navigator.userAgent.toLowerCase());
+var ischrome = /chrome/.test(navigator.userAgentData.toLowerCase());
 
 if (ischrome) {
   ssc_addEvent("mousedown", ssc_mousedown);
