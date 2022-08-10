@@ -1,0 +1,68 @@
+body {
+    background:black;
+    color:white;
+}
+a.nav-link {
+    height:100px;
+    padding-top:35px;
+    vertical-align: middle;
+    color:rgb(195, 54, 11);
+    background-color:none;
+    transition: all 0.5s linear; /* vendorless fallback */
+    -o-transition: all 0.5s linear; /* opera */
+    -ms-transition: all 0.5s linear; /* IE 10 */
+    -moz-transition: all 0.5s linear; /* Firefox */
+    -webkit-transition: all 0.5s linear; /*safari and chrome */
+}
+a.nav-link:hover {
+    color:white;
+    background-color:rgb(195, 54, 11);
+    transition: .8s;
+}
+a.nav-link:active {
+    color:white;
+    background-color:rgb(195, 54, 11);
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color:white;
+    background-color:rgb(195, 54, 11);
+}
+.card-title {
+    color:rgb(195, 54, 11);
+}
+.card-text {
+    max-width: 30rem;
+    color:rgb(195, 54, 11);
+}
+.btn-primary {
+    background-color:rgb(195, 54, 11);
+    border-color:rgb(244, 93, 47);
+    transition: all 0.5s linear; /* vendorless fallback */
+    -o-transition: all 0.5s linear; /* opera */
+    -ms-transition: all 0.5s linear; /* IE 10 */
+    -moz-transition: all 0.5s linear; /* Firefox */
+    -webkit-transition: all 0.5s linear; /*safari and chrome */
+}
+.btn-primary:hover {
+    background-color:rgb(244, 93, 47);
+    border-color:rgb(244, 93, 47);
+    transition: .3s;
+}
+.btn-primary:focus{
+    color: #fff;
+    background-color: rgb(244, 93, 47);
+    border-color: rgb(244, 93, 47);
+    box-shadow:  0px 0px 3px 3px rgba(244, 93, 47, 0.503);
+}
+.btn-primary:active {
+    color: #fff;
+    background-color: rgb(244, 93, 47);
+    border-color: rgb(244, 93, 47);
+    box-shadow:  0px 0px 3px 3px rgba(244, 93, 47, 0.503);
+}
+.card--textBlock {
+    max-width:fit-content;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.413);
+    border-radius: 5px 5px 5px 5px;
+    background-color:rgba(255, 255, 255, 0.5);
+}
