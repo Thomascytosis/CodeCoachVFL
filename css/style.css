@@ -66,3 +66,33 @@ a.nav-link:active {
     border-radius: 5px 5px 5px 5px;
     background-color:rgba(255, 255, 255, 0.5);
 }
+.section-header {
+    display:block;
+    margin-bottom: 100px;
+    margin-top:25px;
+}
+.features--color {
+background-color: rgb(195, 54, 11);
+}
+.features--color h2 {
+    color:white;
+}
+.features--ico {
+    float:left;
+}
+h2 {
+  color:rgb(195, 54, 11);  
+}
+.ico--color {
+    color:rgb(195, 54, 11);
+}
+.card {
+    border: 1px solid rgb(195, 54, 11);
+    margin:7px;
+}
+.card-body p {
+    color:white;
+}
+.card-title {
+    color:white;
+}
