@@ -1,6 +1,10 @@
+html {
+    scroll-padding-top:120px;
+}
 body {
     background:black;
     color:white;
+    padding-top:120px;
 }
 a.nav-link {
     height:100px;
@@ -96,3 +100,60 @@ h2 {
 .card-title {
     color:white;
 }
+.card-img-overlay.overlay--hover {
+    /* display:none; */
+    background-color:rgba(0, 0, 0, 0.3);
+}
+.btn.eye--btn {
+    color:white;
+    border-color:white;
+}
+
+/* element appear animation */
+.right--reveal{
+    position: relative;
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+.right--reveal.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
+.left--reveal{
+    position: relative;
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+.left--reveal.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .top--reveal {
+    position: relative;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  .top--reveal.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .bottom--reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  .bottom--reveal.active{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .fade--in {
+    opacity:0;
+    transition: 1s all ease;
+  }
+  .fade--in.active {
+    opacity:1;
+  }
