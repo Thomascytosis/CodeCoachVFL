@@ -17,6 +17,48 @@ for (var i = 0; i < showMe.length; i++){
 })
 }
 
+//show hide types of projects with button click
+const allProjects = document.getElementById('allProjectsButton');
+const allScratch = document.getElementById('allScratchButton');
+const allJavascript = document.getElementById('allJavascriptButton');
+const allUnreal = document.getElementById('allUnrealButton');
+allProjects.addEventListener('click', () => {
+  var projects = document.querySelectorAll('.allProjects');
+  for (var i = 0; i < projects.length; i++){
+    projects[i].style.display = "block";
+  }
+})
+allScratch.addEventListener('click', () => {
+  var projects = document.querySelectorAll('.allProjects');
+  var scratchs = document.querySelectorAll('.allScratch');
+  for (var i = 0; i < projects.length; i++){
+    projects[i].style.display = "none";
+  }
+  for (var i = 0; i < scratchs.length; i++){
+    scratchs[i].style.display = "block";
+  }
+})
+allJavascript.addEventListener('click', () => {
+  var projects = document.querySelectorAll('.allProjects');
+  var javascripts = document.querySelectorAll('.allJavascript');
+  for (var i = 0; i < projects.length; i++){
+    projects[i].style.display = "none";
+  }
+  for (var i = 0; i < javascripts.length; i++){
+    javascripts[i].style.display = "block";
+  }
+})
+allUnreal.addEventListener('click', () => {
+  var projects = document.querySelectorAll('.allProjects');
+  var unreals = document.querySelectorAll('.allUnreal');
+  for (var i = 0; i < projects.length; i++){
+    projects[i].style.display = "none";
+  }
+  for (var i = 0; i < unreals.length; i++){
+    unreals[i].style.display = "block";
+  }
+})
+
 //from right reveal animation
 function rightReveal() {
     var reveals = document.querySelectorAll(".right--reveal");
@@ -91,10 +133,26 @@ function fadeIn() {
     }
   }
 
+//scale in animation
+function scale() {
+  var reveals = document.querySelectorAll(".scale--reveal");
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
 window.addEventListener("scroll", rightReveal);
 window.addEventListener("scroll", leftReveal);
 window.addEventListener("scroll", topReveal);
 window.addEventListener("scroll", bottomReveal);
 window.addEventListener("scroll", fadeIn);
+window.addEventListener("scroll", scale);
 // To check the scroll position on page load
 // reveal();
