@@ -101,12 +101,17 @@ h2 {
     color:white;
 }
 .card-img-overlay.overlay--hover {
-    /* display:none; */
+    display: none;
     background-color:rgba(0, 0, 0, 0.3);
 }
-.btn.eye--btn {
+/* eye button */
+button.btn.eye--btn {
     color:white;
     border-color:white;
+}
+button.btn.eye--btn:hover {
+    color:rgb(195, 54, 11);
+    border-color:rgb(195, 54, 11);
 }
 
 /* element appear animation */

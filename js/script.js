@@ -4,22 +4,18 @@ navLinks.forEach((l) => {
         navbarButton = document.getElementById('navbarButton');
         navbarButton.click(); });
 });
-//show on hover
-// const showMe = document.querySelectorAll(".showMe");
-// const hiddenElement = document.querySelectorAll(".overlay--hover");
-// for (var i = 0; i < hiddenElement.length; i++){
-//     // console.log(hiddenElement[i]);
-//     showMe[i].addEventListener('mouseenter', () => {
-//         setShow = document.querySelectorAll('.overlay--hover');
-//         console.log(setShow)
-//         setShow.setAttribute('hidden', "");
-//     })
-//     showMe[i].addEventListener('mouseleave', () => {
-//         setHide = document.querySelectorAll('.overlay--hover');
-//         console.log(setHide);
-//         setHide[0].setAttribute('hidden', "hidden");
-// })
-// }
+
+
+//show and hide on mouse enter and leave
+const showMe = document.querySelectorAll(".showMe");
+for (var i = 0; i < showMe.length; i++){
+  showMe[i].addEventListener('mouseenter', (i) => {
+      i.target.children[1].style.display = "block";
+  })
+  showMe[i].addEventListener('mouseleave', (i) => {
+    i.target.children[1].style.display = "none";
+})
+}
 
 //from right reveal animation
 function rightReveal() {
