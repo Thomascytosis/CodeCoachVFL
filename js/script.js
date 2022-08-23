@@ -4,6 +4,17 @@ navLinks.forEach((l) => {
         navbarButton = document.getElementById('navbarButton');
         navbarButton.click(); });
 });
+//refence for scroll into view
+// Element.scrollIntoView()
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//   anchor.addEventListener('click', function (e) {
+//       e.preventDefault();
+
+//       document.querySelector(this.getAttribute('href')).scrollIntoView({
+//           behavior: 'smooth'
+//       });
+//   });
+// });
 
 
 //show and hide on mouse enter and leave
