@@ -92,6 +92,12 @@ background-color: rgb(195, 54, 11);
 h2 {
   color:rgb(195, 54, 11);  
 }
+h5.card-title {
+    color:rgb(195, 54, 11);
+}
+.modal-title {
+    color:rgb(195, 54, 11);
+}
 .ico--color {
     color:rgb(195, 54, 11);
 }
