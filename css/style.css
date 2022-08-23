@@ -72,6 +72,9 @@ a.nav-link:active {
     border-radius: 5px 5px 5px 5px;
     background-color:rgba(255, 255, 255, 0.5);
 }
+.card--textBlock h1.card-title {
+    color:rgb(195, 54, 11);
+}
 .section-header {
     display:block;
     margin-bottom: 100px;
