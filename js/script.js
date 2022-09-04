@@ -63,26 +63,26 @@ allScratch.addEventListener('click', () => {
   }
 
 })
-allJavascript.addEventListener('click', () => {
-  var projects = document.querySelectorAll('.allProjects');
-  var javascripts = document.querySelectorAll('.allJavascript');
-  for (var i = 0; i < projects.length; i++){
-    projects[i].style.display = "none";
-  }
-  for (var i = 0; i < javascripts.length; i++){
-    javascripts[i].style.display = "block";
-  }
-})
-allUnreal.addEventListener('click', () => {
-  var projects = document.querySelectorAll('.allProjects');
-  var unreals = document.querySelectorAll('.allUnreal');
-  for (var i = 0; i < projects.length; i++){
-    projects[i].style.display = "none";
-  }
-  for (var i = 0; i < unreals.length; i++){
-    unreals[i].style.display = "block";
-  }
-})
+// allJavascript.addEventListener('click', () => {
+//   var projects = document.querySelectorAll('.allProjects');
+//   var javascripts = document.querySelectorAll('.allJavascript');
+//   for (var i = 0; i < projects.length; i++){
+//     projects[i].style.display = "none";
+//   }
+//   for (var i = 0; i < javascripts.length; i++){
+//     javascripts[i].style.display = "block";
+//   }
+// })
+// allUnreal.addEventListener('click', () => {
+//   var projects = document.querySelectorAll('.allProjects');
+//   var unreals = document.querySelectorAll('.allUnreal');
+//   for (var i = 0; i < projects.length; i++){
+//     projects[i].style.display = "none";
+//   }
+//   for (var i = 0; i < unreals.length; i++){
+//     unreals[i].style.display = "block";
+//   }
+// })
 
 //from right reveal animation
 function rightReveal() {
