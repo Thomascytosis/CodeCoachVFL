@@ -33,11 +33,24 @@ const allProjects = document.getElementById('allProjectsButton');
 const allScratch = document.getElementById('allScratchButton');
 const allJavascript = document.getElementById('allJavascriptButton');
 const allUnreal = document.getElementById('allUnrealButton');
+const allPixelPad = document.getElementById('allPixelPadButton');
 allProjects.addEventListener('click', () => {
   var projects = document.querySelectorAll('.allProjects');
   for (var i = 0; i < projects.length; i++){
     projects[i].style.display = "block";
   }
+  allPixelPad.addEventListener('click', () => {
+    var projects = document.querySelectorAll('.allProjects');
+    var pixelpads = document.querySelectorAll('.allPixelPad');
+    for (var i = 0; i < projects.length; i++){
+      projects[i].style.display = "none";
+    }
+    for (var i = 0; i < pixelpads.length; i++){
+      pixelpads[i].style.display = "block";
+    }
+  
+  })
+
 })
 allScratch.addEventListener('click', () => {
   var projects = document.querySelectorAll('.allProjects');
@@ -48,6 +61,7 @@ allScratch.addEventListener('click', () => {
   for (var i = 0; i < scratchs.length; i++){
     scratchs[i].style.display = "block";
   }
+
 })
 allJavascript.addEventListener('click', () => {
   var projects = document.querySelectorAll('.allProjects');
