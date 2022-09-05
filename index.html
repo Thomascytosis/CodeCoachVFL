@@ -319,16 +319,17 @@
                   <div class="text-center pt-5 pb-5">
                     <button id="allProjectsButton" type="button" class="btn btn-primary mb-1">All Projects</button>
                     <button id="allScratchButton" type="button" class="btn btn-primary mb-1">Scratch</button>
-                    <button id="allJavascriptButton" type="button" class="btn btn-primary mb-1">Javascript</button>
-                    <button id="allUnrealButton" type="button" class="btn btn-primary mb-1">Unreal</button>
+                    <!-- <button id="allJavascriptButton" type="button" class="btn btn-primary mb-1">Javascript</button> -->
+                    <!-- <button id="allUnrealButton" type="button" class="btn btn-primary mb-1">Unreal</button>                     -->
+                    <button id="allPixelPadButton" type="button" class="btn btn-primary mb-1">PixelPad</button>
                   </div>
                   <div class="row justify-content-center mb-5">
                     <!--project1-->
                     <div class=" allProjects allScratch col-md-3 card text-bg-dark p-0 m-1 showMe">
                       <img src="./images/portfolio/01.jpg" class="card-img" alt="...">
                       <div class="card-img-overlay overlay--hover text-center" >
-                        <h5 class="card-title">Scratch 1</h5>
-                        <p>short description</p>
+                        <h5 class="card-title">Scratch Project</h5>
+                        <p>Fantasy Shooter</p>
                         <button class="btn eye--btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                           <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
                           <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
@@ -339,12 +340,12 @@
                         <div class="modal-dialog modal-dialog-centered">
                           <div class="modal-content bg-dark">
                             <div class="modal-header">
-                              <h5 class="modal-title">Scratch 1</h5>
+                              <h5 class="modal-title">Scratch Project</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                               <iframe class="pe-3" src="https://scratch.mit.edu/projects/689608167/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"></iframe>
-                              <p><a href="https://scratch.mit.edu/projects/689608167/" target="_blank">Scratch1</a></p>
+                              <p><a href="https://scratch.mit.edu/projects/689608167/" target="_blank">Scratch Project</a></p>
                               <p>Use mouse to aim.
                                 Use Spacebar to shoot.
                                 Click Green Flag to Start.
@@ -358,64 +359,173 @@
                       </div> <!--END Modal-->
                     </div> <!--END Project1-->
                     <!--Project2-->
-                    <div class="  allProjects allJavascript col-md-3 card text-bg-dark p-0 m-1 showMe">
-                      <img src="./images/portfolio/01.jpg" class="card-img" alt="...">
+                    <div class="  allProjects allPixelPad col-md-3 card text-bg-dark p-0 m-1 showMe">
+                      <img src="./images/portfolio/02.jpg" class="card-img" alt="...">
                       <div class="card-img-overlay overlay--hover text-center" >
-                        <h5 class="card-title">Javascript 1</h5>
-                        <p>short description</p>
-                        <button class="btn eye--btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                        <h5 class="card-title">Pixelpad (Python)</h5>
+                        <p>Game Dialog Room Demo</p>
+                        <button class="btn eye--btn" data-bs-toggle="modal" data-bs-target="#exampleModal2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                           <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
                           <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
                         </svg></button>
                       </div>
+                     <!--Start Modal-->
+                     <div id="exampleModal2" class="modal" tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content bg-dark">
+                          <div class="modal-header">
+                            <h5 class="modal-title">PixelPad</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <!-- <iframe class="pe-3" src="https://scratch.mit.edu/projects/689608167/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"></iframe> -->
+                            <iframe class="pe-3" id="pixelpad-embed" title="rooms" style="border: none;" src="https://pixelpad.io/app/iyqdoambmwa/?emb=1" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"></iframe>
+                            <p><a href="https://scratch.mit.edu/projects/689608167/" target="_blank">PixelPad</a></p>
+                            <p>Pixelpad uses "rooms" to create scenes and game areas.  Here we use a "room" to enter dialog with an NPC.  Use the awsd keys to move. When you collide with the man you will enter a dailog "room". </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div> <!--END Modal-->                      
                     </div> <!--End Project2-->
                     <!--Start Project3-->
-                    <div class="  allProjects allUnreal col-md-3 card text-bg-dark p-0 m-1 showMe">
-                      <img src="./images/portfolio/01.jpg" class="card-img" alt="...">
+                    <div class=" allProjects allScratch col-md-3 card text-bg-dark p-0 m-1 showMe">
+                      <img src="./images/portfolio/03.jpg" class="card-img" alt="...">
                       <div class="card-img-overlay overlay--hover text-center" >
-                        <h5 class="card-title">Unreal 1</h5>
-                        <p>short description</p>
-                        <button class="btn eye--btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                        <h5 class="card-title">Scratch Project</h5>
+                        <p>Space shooter</p>
+                        <button class="btn eye--btn" data-bs-toggle="modal" data-bs-target="#exampleModal3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                           <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
                           <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
                         </svg></button>
                       </div>
+                      <!--Start Modal-->
+                      <div id="exampleModal3" class="modal" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Scratch Project</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <iframe class="pe-3" src="https://scratch.mit.edu/projects/721794507/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"></iframe>
+                              <p><a href="https://scratch.mit.edu/projects/721794507/" target="_blank">Scratch1</a></p>
+                              <p>Dodge 5 asteroids to 1 earn point.
+                                Press up and down arrows to move.
+                                Press b to shoot Blaster
+                                Press space to fire P-Wave.
+                                Collect crystals for energy.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div> <!--END Modal-->
                     </div> <!--End Project3-->
                     <!--start Project4-->
                     <div class="  allProjects allScratch col-md-3 card text-bg-dark p-0 m-1 showMe">
-                      <img src="./images/portfolio/01.jpg" class="card-img" alt="...">
+                      <img src="./images/portfolio/04.jpg" class="card-img" alt="...">
                       <div class="card-img-overlay overlay--hover text-center" >
-                        <h5 class="card-title">Scratch 2</h5>
-                        <p>short description</p>
-                        <button class="btn eye--btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                        <h5 class="card-title">Orangeosaurus</h5>
+                        <p>Play a dinasour that east oranges!</p>
+                        <button class="btn eye--btn" data-bs-toggle="modal" data-bs-target="#exampleModal4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                           <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
                           <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
                         </svg></button>
                       </div>
+                      <!--Start Modal-->
+                      <div id="exampleModal4" class="modal" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Orangeosaurus</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <iframe class="pe-3" src="https://scratch.mit.edu/projects/721227511/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"></iframe>
+                              <p><a href="https://scratch.mit.edu/projects/721227511/" target="_blank">Orangeosaurus</a></p>
+                              <p>Use arrow keys to move left and right.
+                                Press the spacebar to eat oranges.
+                                Press down the arrow key to push and kick trees with oranges you can't reach.  Stop pressing down when the tree starts to move, and wait for oranges to fall.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div> <!--END Modal-->
                     </div> <!--end project4-->
                     <!--start project5-->
-                    <div class="  allProjects allJavascript col-md-3 card text-bg-dark p-0 m-1 showMe">
-                      <img src="./images/portfolio/01.jpg" class="card-img" alt="...">
+                    <div class="  allProjects allScratch col-md-3 card text-bg-dark p-0 m-1 showMe">
+                      <img src="./images/portfolio/05.jpg" class="card-img" alt="...">
                       <div class="card-img-overlay overlay--hover text-center" >
                         <h5 class="card-title">Javascript 2</h5>
                         <p>short description</p>
-                        <button class="btn eye--btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                        <button class="btn eye--btn" data-bs-toggle="modal" data-bs-target="#exampleModal5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                           <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
                           <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
                         </svg></button>
                       </div>
+                      <!--Start Modal-->
+                      <div id="exampleModal5" class="modal" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Dance Party!</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <iframe class="pe-3" src="https://scratch.mit.edu/projects/719454281/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"></iframe>
+                              <p><a href="https://scratch.mit.edu/projects/719454281/" target="_blank">Dance Party!</a></p>
+                              <p>Choose a nickname for Bones.
+Choose how many backup dancers.
+Press `spacebar` to summon Bones to the dance floor!
+When Bones is on the dance floor, press `q`, `e`, `a`, `s`, or `d` to make Bones move!
+Watch out for Frank cheering using Bones' nickname!
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div> <!--END Modal-->
                     </div> <!--end project5-->
                     <!--start project6-->
-                    <div class="  allProjects allUnreal col-md-3 card text-bg-dark p-0 m-1 showMe">
-                      <img src="./images/portfolio/01.jpg" class="card-img" alt="...">
+                    <div class="  allProjects allScratch col-md-3 card text-bg-dark p-0 m-1 showMe">
+                      <img src="./images/portfolio/06.jpg" class="card-img" alt="...">
                       <div class="card-img-overlay overlay--hover text-center" >
-                        <h5 class="card-title">Unreal 2</h5>
-                        <p>short description</p>
-                        <button class="btn eye--btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                        <h5 class="card-title">Sprite-Perspective-Scaling</h5>
+                        <p>Sprite Perspective Scaling demo</p>
+                        <button class="btn eye--btn" data-bs-toggle="modal" data-bs-target="#exampleModal6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
                           <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
                           <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
                         </svg></button>
                       </div>
+                      <!--Start Modal-->
+                      <div id="exampleModal6" class="modal" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Sprite-Perspective-Scaling</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <iframe class="pe-3" src="https://scratch.mit.edu/projects/719924539/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"></iframe>
+                              <p><a href="https://scratch.mit.edu/projects/719924539/" target="_blank">Dance Party!</a></p>
+                              <p>click on picture to scale goblin pretty close to backdrop scale.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div> <!--END Modal-->
                     </div> <!--end project6-->
                   </div>
                 </section>
