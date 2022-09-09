@@ -1,0 +1,120 @@
+/* style.css | https://thomascytosis.github.io/CodeCoachVFL/css/style.css */
+
+.card {
+    /* border: 1px solid rgb(195, 54, 11); */
+    border: 1px solid rgb(243, 255, 182);
+  }
+  
+  .card--textBlock h1.card-title {
+    /* color: rgb(195, 54, 11); */
+    color: rgb(44, 85, 48);
+  }
+  
+  body {
+    /* color: rgb(195, 54, 11); */
+
+    background-color:rgb(231, 188, 136)
+    ;
+  }
+  
+  .ico--color {
+    /* color: rgb(195, 54, 11); */
+    color: rgb(44, 85, 48);
+  }
+  
+  h5.card-title {
+    /* color: rgb(195, 54, 11); */
+    color: rgb(243, 255, 182);
+  }
+  
+  a.nav-link {
+    /* color: rgb(194, 148, 138); */
+    color: rgb(243, 255, 182);
+  }
+  
+  a.nav-link:hover {
+    /* background-color: rgb(126, 168, 190); */
+    background-color: rgb(44, 85, 48);
+  }
+  
+  /* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css */
+  
+  .card {
+    /* background-color: RGBA(33,37,41,var(--bs-bg-opacity,1)) !important; */
+    background-color: RGBA(44, 85, 48);
+  }
+  
+  a {
+    /* color: var(--bs-link-color); */
+    color: rgb(243, 255, 182);
+  }
+  
+ .container {
+    /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important; */
+    /* background-color: rgb(115, 158, 130); */
+  }
+
+  .navbar {
+    /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important; */
+    background-color: rgb(44, 85, 48);
+  }
+
+  .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color: white;
+    background-color: rgb(115, 158, 130);
+  }
+
+  .features--color {
+    background-color: rgb(115, 158, 130);
+  }
+
+
+  .btn-primary {
+    background-color: rgb(115, 158, 130);
+    border-color: rgb(243, 255, 182);
+    transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(243, 255, 182);
+    border-color: rgb(115, 158, 130);
+    color: rgb(44, 85, 48);
+  }
+
+  .text-bg-dark {
+    color: #fff !important;
+    background-color: RGBA(115, 158, 130) !important;
+  }
+
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(44, 85, 48) !important;
+  }
+
+  h2 {
+    color: rgb(44, 85, 48);
+  }
+
+  .card-text {
+    max-width: 30rem;
+    color: rgb(44, 85, 48);
+  }
+
+
+  .features--ico {
+    float: left;
+    color: rgb(44, 85, 48);
+  }
+
+  h1 {
+    color: rgb(44, 85, 48);
+  }
+
+  p {
+    color: rgb(115, 158, 130);
+    font-size: large;
+  }
