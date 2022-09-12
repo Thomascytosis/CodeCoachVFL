@@ -1,77 +1,99 @@
 /* style.css | https://thomascytosis.github.io/CodeCoachVFL/css/style.css */
 
+
+
+
+
+:root {
+  --color-1: rgb(231, 188, 136);
+  --color-2: rgb(243, 255, 182);
+  --color-3: rgb(44, 85, 48);
+  --color-4: rgb(115, 158, 130);
+  --color-5: rgb(255, 255, 255);
+
+}
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    --color-1:  #fbf7f4;
+    --color-2: #e8998d;
+    --color-3: #eed2cc;
+    --color-4: #6c9a8b; 
+    --color-5: #a1683a;
+  }
+}
+
 .card {
     /* border: 1px solid rgb(195, 54, 11); */
-    border: 1px solid rgb(243, 255, 182);
+    border: 1px solid var(--color-2);
   }
   
   .card--textBlock h1.card-title {
     /* color: rgb(195, 54, 11); */
-    color: rgb(44, 85, 48);
+    color: var(--color-3);
   }
   
   body {
     /* color: rgb(195, 54, 11); */
 
-    background-color:rgb(231, 188, 136)
-    ;
+    background-color: var(--color-1);
   }
   
   .ico--color {
     /* color: rgb(195, 54, 11); */
-    color: rgb(44, 85, 48);
+    color: var(--color-3);
   }
   
   h5.card-title {
     /* color: rgb(195, 54, 11); */
-    color: rgb(243, 255, 182);
+    color: var(--color-2);
   }
   
   a.nav-link {
     /* color: rgb(194, 148, 138); */
-    color: rgb(243, 255, 182);
+    color: var(--color-2);
   }
   
   a.nav-link:hover {
     /* background-color: rgb(126, 168, 190); */
-    background-color: rgb(44, 85, 48);
+    background-color: var(--color-3);
   }
   
   /* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css */
   
   .card {
     /* background-color: RGBA(33,37,41,var(--bs-bg-opacity,1)) !important; */
-    background-color: RGBA(44, 85, 48);
+    background-color: var(--color-3);
   }
   
   a {
     /* color: var(--bs-link-color); */
-    color: rgb(243, 255, 182);
+    color: var(--color-2);
   }
   
  .container {
     /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important; */
-    /* background-color: rgb(115, 158, 130); */
+    /* background-color: var(--color-4); */
   }
 
   .navbar {
     /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important; */
-    background-color: rgb(44, 85, 48);
+    background-color: var(--color-3);
   }
 
   .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
     color: white;
-    background-color: rgb(115, 158, 130);
+    background-color: var(--color-4);
   }
 
   .features--color {
-    background-color: rgb(115, 158, 130);
+    background-color: var(--color-4);
   }
 
 
   .btn-primary {
-    background-color: rgb(115, 158, 130);
-    border-color: rgb(243, 255, 182);
+    background-color: var(--color-4);
+    border-color: var(--color-2);
     transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
     -ms-transition: all 0.5s linear;
@@ -80,41 +102,41 @@
   }
 
   .btn-primary:hover {
-    background-color: rgb(243, 255, 182);
-    border-color: rgb(115, 158, 130);
-    color: rgb(44, 85, 48);
+    background-color: var(--color-2);
+    border-color: var(--color-4);
+    color: var(--color-3);
   }
 
   .text-bg-dark {
-    color: #fff !important;
-    background-color: RGBA(115, 158, 130) !important;
+    color: #fff 
+    background-color: var(--color-4) 
   }
 
   .bg-dark {
     --bs-bg-opacity: 1;
-    background-color: rgba(44, 85, 48) !important;
+    background-color: var(--color-3);
   }
 
   h2 {
-    color: rgb(44, 85, 48);
+    color: var(--color-3);
   }
 
   .card-text {
     max-width: 30rem;
-    color: rgb(44, 85, 48);
+    color: var(--color-3);
   }
 
 
   .features--ico {
     float: left;
-    color: rgb(44, 85, 48);
+    color: var(--color-3);
   }
 
   h1 {
-    color: rgb(44, 85, 48);
+    color: var(--color-3);
   }
 
   p {
-    color: rgb(115, 158, 130);
+    color: var(--color-4);
     font-size: large;
   }
