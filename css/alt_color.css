@@ -1,8 +1,8 @@
 /* style.css | https://thomascytosis.github.io/CodeCoachVFL/css/style.css */
 
 
-
-
+/* 
+html body.scrolling-box section div.container div.row.text-center.justify-content-center.mb-5 div.card.text-bg-dark.bottom--reveal.active */
 
 :root {
   --color-1: rgb(231, 188, 136);
@@ -18,8 +18,8 @@
     --color-1:  #fbf7f4;
     --color-2: #e8998d;
     --color-3: #eed2cc;
-    --color-4: #6c9a8b; 
-    --color-5: #a1683a;
+    --color-4: #a1683a; 
+    --color-5:  #6c9a8b;
   }
 }
 
@@ -137,6 +137,10 @@
   }
 
   p {
-    color: var(--color-4);
+    color: var(--color-3);
     font-size: large;
+  }
+
+  .card.text-bg-dark {
+    background-color: var(--color-4) !important;
   }
