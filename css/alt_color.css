@@ -15,7 +15,7 @@ html body.scrolling-box section div.container div.row.text-center.justify-conten
 
 @media only screen and (max-width: 1200px) {
   :root {
-    --color-1:  #fbf7f4;
+    --color-1:  #6c9a8b;
     --color-2: #e8998d;
     --color-3: #eed2cc;
     --color-4: #a1683a; 
@@ -71,10 +71,10 @@ html body.scrolling-box section div.container div.row.text-center.justify-conten
     color: var(--color-2);
   }
   
- .container {
+ /* .container { */
     /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important; */
     /* background-color: var(--color-4); */
-  }
+  /* } */
 
   .navbar {
     /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important; */
@@ -108,13 +108,13 @@ html body.scrolling-box section div.container div.row.text-center.justify-conten
   }
 
   .text-bg-dark {
-    color: #fff 
-    background-color: var(--color-4) 
+    color: #fff ;
+    background-color: var(--color-4) !important;
   }
 
   .bg-dark {
     --bs-bg-opacity: 1;
-    background-color: var(--color-3);
+    background-color: var(--color-3)!important;
   }
 
   h2 {
@@ -144,3 +144,8 @@ html body.scrolling-box section div.container div.row.text-center.justify-conten
   .card.text-bg-dark {
     background-color: var(--color-4) !important;
   }
+
+  .modal-title {
+    color: var(--color-3);
+  }
+
