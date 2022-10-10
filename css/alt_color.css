@@ -13,15 +13,15 @@ html body.scrolling-box section div.container div.row.text-center.justify-conten
 
 }
 
-@media only screen and (max-width: 1200px) {
-  :root {
-    --color-1:  #6c9a8b;
-    --color-2: #e8998d;
-    --color-3: #eed2cc;
-    --color-4: #a1683a;
-    --color-5:  #6c9a8b;
-  }
-}
+/*@media only screen and (max-width: 1200px) {*/
+  /*:root {*/
+    /*--color-1:  #6c9a8b;*/
+    /*--color-2: #e8998d;*/
+    /*--color-3: #eed2cc;*/
+    /*--color-4: #a1683a;*/
+    /*--color-5:  #6c9a8b;*/
+  /*}*/
+/*}*/
 
 .card {
     /* border: 1px solid rgb(195, 54, 11); */
@@ -137,7 +137,7 @@ html body.scrolling-box section div.container div.row.text-center.justify-conten
   }
 
   p {
-    color: var(--color-3);
+    color: var(--color-4);
     font-size: large;
   }
 
