@@ -164,3 +164,7 @@ html body.scrolling-box section div.container div.row.text-center.justify-conten
         color: #FFF;
     }
 }
+
+.p-1 {
+    padding: 2rem !important;
+}
