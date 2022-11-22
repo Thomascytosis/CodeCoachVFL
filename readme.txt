@@ -1,4 +1,4 @@
-Concept Webpage for Coaching Kids Code
+Webpage for Coaching Kids Code
 
 Credits :
 -------

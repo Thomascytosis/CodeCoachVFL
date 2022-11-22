@@ -1,0 +1,170 @@
+/* style.css | https://thomascytosis..io/CodeCoachVFL/css/style.css */
+
+
+/*
+html body.scrolling-box section div.container div.row.text-center.justify-content-center.mb-5 div.card.text-bg-dark.bottom--reveal.active */
+
+:root {
+  --color-1: rgb(231, 188, 136);
+  --color-2: rgb(243, 255, 182);
+  --color-3: rgb(44, 85, 48);
+  --color-4: rgb(115, 158, 130);
+  --color-5: rgb(255, 255, 255);
+
+}
+
+/*@media only screen and (max-width: 1200px) {*/
+  /*:root {*/
+    /*--color-1:  #6c9a8b;*/
+    /*--color-2: #e8998d;*/
+    /*--color-3: #eed2cc;*/
+    /*--color-4: #a1683a;*/
+    /*--color-5:  #6c9a8b;*/
+  /*}*/
+/*}*/
+
+.card {
+    /* border: 1px solid rgb(195, 54, 11); */
+    border: 1px solid var(--color-2);
+  }
+
+  .card--textBlock h1.card-title {
+    /* color: rgb(195, 54, 11); */
+    color: var(--color-3);
+  }
+
+  body {
+    /* color: rgb(195, 54, 11); */
+
+    background-color: var(--color-1);
+  }
+
+  .ico--color {
+    /* color: rgb(195, 54, 11); */
+    color: var(--color-3);
+  }
+
+  h5.card-title {
+    /* color: rgb(195, 54, 11); */
+    color: var(--color-2);
+  }
+
+  a.nav-link {
+    /* color: rgb(194, 148, 138); */
+    color: var(--color-2);
+  }
+
+  a.nav-link:hover {
+    /* background-color: rgb(126, 168, 190); */
+    background-color: var(--color-3);
+  }
+
+  /* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css */
+
+  .card {
+    /* background-color: RGBA(33,37,41,var(--bs-bg-opacity,1)) !important; */
+    background-color: var(--color-3);
+  }
+
+  a {
+    /* color: var(--bs-link-color); */
+    color: var(--color-2);
+  }
+
+ /* .container { */
+    /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important; */
+    /* background-color: var(--color-4); */
+  /* } */
+
+  .navbar {
+    /* background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important; */
+    background-color: var(--color-3);
+  }
+
+  .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color: white;
+    background-color: var(--color-4);
+  }
+
+  .features--color {
+    background-color: var(--color-4);
+  }
+
+
+  .btn-primary {
+    background-color: var(--color-4);
+    border-color: var(--color-2);
+    transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-2);
+    border-color: var(--color-4);
+    color: var(--color-3);
+  }
+
+  .text-bg-dark {
+    color: #fff ;
+    background-color: var(--color-4) !important;
+  }
+
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: var(--color-3)!important;
+  }
+
+  h2 {
+    color: var(--color-3);
+  }
+
+  .card-text {
+    max-width: 30rem;
+    color: var(--color-3);
+  }
+
+
+  .features--ico {
+    float: left;
+    color: var(--color-3);
+  }
+
+  h1 {
+    color: var(--color-3);
+  }
+
+  p {
+    color: var(--color-4);
+    font-size: large;
+  }
+
+  .card.text-bg-dark {
+    background-color: var(--color-4) !important;
+  }
+
+  .modal-title {
+    color: var(--color-3);
+  }
+
+
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #FFF;
+        color: #000;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #000;
+        color: #FFF;
+    }
+}
+
+.p-1 {
+    padding: 2rem !important;
+}
